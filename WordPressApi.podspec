@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking', '~> 3.0.0-beta.2'
   s.dependency 'wpxmlrpc', '~> 0.7'
 
-  s.platform = :ios, '6.0'
+  s.platform = :ios, '6.0', tvos
   s.ios.deployment_target = '6.0'
   s.frameworks = 'Foundation', 'UIKit', 'Security'
 end
