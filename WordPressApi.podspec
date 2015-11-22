@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/wordpress-mobile/WordPressApi.git", :tag => s.version.to_s }
   s.source_files = 'WordPressApi'
   s.requires_arc = true
-  s.dependency 'AFNetworking', '~> 2.6.0'
+  s.dependency 'AFNetworking', '~> 3.0.0-beta.2'
   s.dependency 'wpxmlrpc', '~> 0.7'
 
   s.platform = :ios, '6.0'
